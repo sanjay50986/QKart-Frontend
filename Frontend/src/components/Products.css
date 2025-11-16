@@ -94,6 +94,7 @@
   justify-content: center;
   align-items: center;
   min-height: 22rem;
+  width: 100%;
 }
 
 .not-found {

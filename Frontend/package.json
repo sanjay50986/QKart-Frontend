@@ -32,7 +32,7 @@
     "resetMocks": false
   },
   "scripts": {
-    "start": "PORT=8081 react-scripts start",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "build": "react-scripts build",
     "test": "git config --local merge.autoselect-nonempty.driver 'chmod +x __CRIO__/merge_drivers/autoselect-nonempty && __CRIO__/merge_drivers/autoselect-nonempty %O %A %B %P' && react-scripts test --json --outputFile=testReport.json --watchAll=false",
     "eject": "react-scripts eject"
