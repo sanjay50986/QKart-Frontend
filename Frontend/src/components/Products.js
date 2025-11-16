@@ -317,7 +317,6 @@ const Products = () => {
       <TextField
         className="search-desktop"
         size="small"
-        sx={{width: "20rem"}}
         InputProps={{
           endAdornment: (
             <InputAdornment position="end">
