@@ -68,12 +68,12 @@
   }
   .search-desktop {
     display: block !important;
-    /* width: 10rem; */
+    /* width: 26rem; */
   }
 
-  .css-1tyryel-MuiInputBase-root-MuiOutlinedInput-root {
+  /* .css-1tyryel-MuiInputBase-root-MuiOutlinedInput-root {
     width: 26vw !important;
-  }
+  } */
 
 }
 
